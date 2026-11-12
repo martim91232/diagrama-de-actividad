@@ -1016,6 +1016,30 @@
         <mxCell id="CtQNYBB-R54AtqtlT8lB-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;shadow=1;" value="No" vertex="1">
           <mxGeometry height="30" width="60" x="990" y="1920" as="geometry" />
         </mxCell>
+        <mxCell id="merge-before-create-order" parent="zChkRxKqfl6yC8GLvfwt-1" style="rhombus;" vertex="1">
+          <mxGeometry height="30" width="30" x="55" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="merge-before-payment" parent="zChkRxKqfl6yC8GLvfwt-1" style="rhombus;" vertex="1">
+          <mxGeometry height="30" width="30" x="55" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="merge-before-create-order-in-1" edge="1" parent="1" source="zChkRxKqfl6yC8GLvfwt-35" target="merge-before-create-order" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="merge-before-create-order-in-2" edge="1" parent="1" source="6mD2_UIxJtFP5BkUqXDd-4" target="merge-before-create-order" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="merge-before-create-order-out" edge="1" parent="1" source="merge-before-create-order" target="7AgPNNXc_1wmoK_G9nCS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="merge-before-payment-in-1" edge="1" parent="1" source="wvzcYGrd3chidNtK_ScV-2" target="merge-before-payment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="merge-before-payment-in-2" edge="1" parent="1" source="6mD2_UIxJtFP5BkUqXDd-4" target="merge-before-payment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="merge-before-payment-out" edge="1" parent="1" source="merge-before-payment" target="jGnoVVXyKtmfZLYKW3en-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
