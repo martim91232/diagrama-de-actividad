@@ -873,8 +873,13 @@
         <mxCell id="clean-edge-rider-unavailable" edge="1" parent="1" source="9729f_aYqW-z8Ey18_Wl-6" target="9729f_aYqW-z8Ey18_Wl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="clean-edge-assign-review" edge="1" parent="1" source="9729f_aYqW-z8Ey18_Wl-13" target="9729f_aYqW-z8Ey18_Wl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="clean-edge-assign-review" edge="1" parent="1" source="9729f_aYqW-z8Ey18_Wl-13" target="rider-review-merge" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="1750" />
+              <mxPoint x="1080" y="1750" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="clean-edge-review-accept" edge="1" parent="1" source="9729f_aYqW-z8Ey18_Wl-16" target="CtQNYBB-R54AtqtlT8lB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;">
           <mxGeometry relative="1" as="geometry" />
@@ -901,6 +906,29 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="clean-edge-admin-menu" edge="1" parent="1" source="zChkRxKqfl6yC8GLvfwt-22" target="NFkHj8rOK8UxmLR6X5rE-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rider-review-merge" parent="NFkHj8rOK8UxmLR6X5rE-1" style="rhombus;" vertex="1">
+          <mxGeometry height="30" width="30" x="135" y="1690" as="geometry" />
+        </mxCell>
+        <mxCell id="rider-deliver-auth" edge="1" parent="1" source="NFkHj8rOK8UxmLR6X5rE-36" target="Ac9t4UWdVaDY84F0G_ri-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rider-auth-merge" edge="1" parent="1" source="Ac9t4UWdVaDY84F0G_ri-1" target="rider-review-merge" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="300" />
+              <mxPoint x="1130" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rider-merge-review" edge="1" parent="1" source="rider-review-merge" target="9729f_aYqW-z8Ey18_Wl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="menu-final" parent="zChkRxKqfl6yC8GLvfwt-11" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1">
+          <mxGeometry height="30" width="30" x="238" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="menu-final-flow" edge="1" parent="1" source="NFkHj8rOK8UxmLR6X5rE-39" target="menu-final" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=open;endFill=0;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
